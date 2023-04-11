@@ -13,6 +13,7 @@ ___
  3. `sort | uniq` to ensure no duplicates are in the list 
  4. Print list to `stdout` 
  5. Cleanup files in `/tmp`
+ 
 
 
 ___
@@ -21,4 +22,5 @@ ___
  - Enable this to run as a `cron` job or similar to check for updates automatically. Will need a "source" file to check changes against 
  - Add a flag for CSV support instead of return separated 
  - Make compatible for Vercel Cron
-
+ - Add more features
+ - Test more
